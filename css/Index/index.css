@@ -1,0 +1,120 @@
+/* 站点首页样式 */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    background-color: #222;
+    height: 60px;
+}
+
+.head-nav {
+    height: auto;
+}
+
+.head-nav ul li {
+    float: left;
+    width: 80px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    transition: transform .5s;
+    -webkit-transition: transform .5s;
+    /* Safari */
+}
+
+.navActive {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #009688;
+    border-bottom: 2px solid #fff;
+    box-sizing: border-box;
+}
+
+.head-nav ul {
+    display: inline-block;
+}
+
+.head-nav ul li:hover {
+    /* background-color: #009688; */
+    box-sizing: border-box;
+    transform: scaleX(1.1);
+    -ms-transform: scaleX(1.1);
+    /* IE 9 */
+    -moz-transform: scaleX(1.1);
+    /* Firefox */
+    -webkit-transform: scaleX(1.1);
+    /* Safari 和 Chrome */
+    -o-transform: scaleX(1.1);
+}
+
+.head-nav ul li a {
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-bottom-line {
+    /* background: linear-gradient(to right, darkorange, orangered); */
+    background-color: #fff;
+    height: 2px;
+    border-radius: 10px;
+    position: relative;
+    left: 0px;
+    bottom: 5px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.indexArea {
+    margin: 18% auto;
+}
+
+.textCenter {
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.circle {
+    border-radius: 50%;
+    border: 6px solid #fff;
+}
+
+.img {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.section:nth-child(1) {
+    background-color: #009688;
+    height: 973px;
+}
+
+.section:nth-child(2) {
+    background-color: #5FB878
+}
+
+.section:nth-child(3) {
+    background-color: #393D49
+}
+
+.section:nth-child(4) {
+    background-color: #FF5722;
+}
+
+@media all and(max-width: 320px) {
+    .textCenter {
+        color: brown!important;
+    }
+}
+
+@media only screen and(min-width: 320px) and (max-width:640px) {
+    .textCenter {
+        color: green!important;
+    }
+}
