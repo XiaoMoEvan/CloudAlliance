@@ -14,51 +14,64 @@
 </head>
 
 <body>
-    <div id="header" class="header">
+    <div id="cloud-header" class="cloud-header wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
         <div class="head-content">
             <div class="layui-row">
-                <div class="layui-col-md2 layui-col-md-offset2">
-                    <div class="head-logo">
-                        <img class="wow rubberBand " data-wow-duration="1s" data-wow-delay="3s" src="images/Index/logo.gif" alt="logo">
+                <div class="layui-col-md2 layui-col-md-offset1">
+                    <div class="head-logo wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                        <a href="/">
+                            <img class="wow rubberBand " data-wow-duration="1s" data-wow-delay="2s" src="images/Index/logo.gif" alt="logo">
+                        </a>
                     </div>
                 </div>
-                <div class="layui-col-md6 layui-col-md-offset2">
-                    <div class="head-nav">
-                        <ul>
-                            <li><a class="navLink wow jello" data-wow-duration="1s" data-wow-delay="4s" href="javascript:">首页</a></li>
-                            <li><a class="navLink wow jello" data-wow-duration="1s" data-wow-delay="4s" href="javascript:">社区</a></li>
-                            <li><a class="navLink wow jello" data-wow-duration="1s" data-wow-delay="4s" href="javascript:">博文</a></li>
-                            <li><a class="navLink wow jello" data-wow-duration="1s" data-wow-delay="4s" href="javascript:">团队成员</a></li>
-                            <li><a class="navLink wow jello" data-wow-duration="1s" data-wow-delay="4s" href="javascript:">关于站长</a></li>
-                            <li><a class="navLink wow jello" data-wow-duration="1s" data-wow-delay="4s" href="javascript:">联系站长</a></li>
+                <div class="layui-col-md5 layui-col-md-offset4">
+                    <div class="head-nav wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
+                        <ul id="cloud-nav-menu">
+                            <li data-menuanchor="section1" class="active"><a class="navLink wow pulse" data-wow-duration="1s" data-wow-delay="2s" href="#section1">首页</a></li>
+                            <li data-menuanchor="section2"><a class="navLink wow pulse" data-wow-duration="1s" data-wow-delay="2s" href="#section2">社区</a></li>
+                            <li data-menuanchor="section3"><a class="navLink wow pulse" data-wow-duration="1s" data-wow-delay="2s" href="#section3">博文</a></li>
+                            <li data-menuanchor="section4"><a class="navLink navNoLink wow pulse" data-wow-duration="1s" data-wow-delay="2s" href="#section4">团队成员</a></li>
+                            <li data-menuanchor="section5"><a class="navLink navNoLink wow pulse" data-wow-duration="1s" data-wow-delay="2s" href="#section5">关于站长</a></li>
+                            <li data-menuanchor="section6"><a class="navLink navNoLink wow pulse" data-wow-duration="1s" data-wow-delay="2s" href="#section6">联系站长</a></li>
                         </ul>
-                        <p class="nav-bottom-line"></p>
+                        <p class="cloud-displayNone nav-bottom-line"></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div id="app" class="app">
-        <div class="textCenter section">
-            <div class="indexArea">
-                <img class="img wow rubberBand circle" data-wow-duration="1s" data-wow-delay="1.5s" src="images/Index/user_avatar_01.jpg" alt="用户头像">
-                <p>Wellcome To Cloud-Alliance</p>
+    <div id="cloud-container" class="cloud-container">
+        <div class="cloud-text-center section active">
+            <div class="cloud-displayNone indexArea wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img class="cloud-circle img wow bounceIn " data-wow-duration="1s" data-wow-delay="2s" src="images/Index/user_avatar_01.jpg" alt="用户头像">
+                <p class="wow rubberBand" data-wow-duration="1s" data-wow-delay="3s">Wellcome To Cloud-Alliance</p>
                 <br>
                 <button class="layui-btn layui-btn-primary wow flipInX enterIndex" data-wow-duration="1s" data-wow-delay="1s">进入官网</button>
             </div>
         </div>
-        <!-- <div class="textCenter section">
-            <h3>第二屏</h3>
-            <button class="layui-btn layui-btn-danger  openLayer">右下角公告</button>
+        <div class="cloud-text-center section">
+            <h3>敬请期待...</h3>
         </div>
-        <div class="textCenter section">
-            <h3>第三屏</h3>
+        <div class="cloud-text-center section">
+            <h3>敬请期待...</h3>
         </div>
-        <div class="textCenter section">
-            <h3>第四屏</h3>
-        </div> -->
     </div>
-
+    <div class="cloud-footer wow fadeInUp" data-wow-duration="1" data-wow-delay="0.5s">
+        <div class="foot-content">
+            <div class="layui-row">
+                <div class="layui-col-md12">
+                    <ul class="footLinks wow lightSpeedIn" data-wow-duration="1s" data-wow-delay="2s">
+                        <li>友情链接：</li>
+                        <li class="wow swing" data-wow-duration="1s" data-wow-delay="3.5s"><a class="footLink" href="javascript:">云盟</a></li>
+                        <li class="wow swing" data-wow-duration="1s" data-wow-delay="3.5s"><a class="footLink" href="javascript:">XXX网络</a></li>
+                        <li class="wow swing" data-wow-duration="1s" data-wow-delay="3.5s"><a class="footLink" href="javascript:">XXX媒体</a></li>
+                        <li class="wow swing" data-wow-duration="1s" data-wow-delay="3.5s"><a class="footLink" href="javascript:">XXX教程网</a></li>
+                        <li class="wow swing" data-wow-duration="1s" data-wow-delay="3.5s"><a class="footLink" href="javascript:">XXX联盟</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="js/jquery-3.3.1.js"></script>
     <script src="common/layui/layui.all.js"></script>
     <script src="common/layer/layer.js"></script>
