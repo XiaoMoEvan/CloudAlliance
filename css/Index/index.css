@@ -181,13 +181,16 @@
     height: 330px!important;
 }
 
+.special-team-member .cloud-team-member-description {
+    padding-top: 130px;
+}
+
 .cloud-team {
     width: 1200px;
     height: 330px;
     overflow: hidden;
     text-align: center;
     margin: 0 auto;
-    line-height: 330px;
 }
 
 .cloud-team-circle {
@@ -201,7 +204,7 @@
     width: 200px;
     height: 200px;
     float: left;
-    margin: 40px 5px;
+    margin: 56px 5px;
 }
 
 .cloud-team-member-common {
@@ -232,7 +235,7 @@
     color: #fff;
     text-align: center;
     box-sizing: border-box;
-    padding: 65px 10px;
+    padding: 65px 25px;
     padding-bottom: 0px;
     background-color: rgba(0, 0, 0, 0.5);
     transition: all 0.8s ease-in-out;
