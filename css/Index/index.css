@@ -115,7 +115,7 @@
 }
 
 .section:nth-child(4) {
-    background-color: #FF5722;
+    background-color: #fff;
 }
 
 .cloud-footer {
@@ -163,6 +163,87 @@
 
 @media only screen and(min-width: 320px) and (max-width:640px) {
     .textCenter {
-        color: green!important;
+        color: #fff!important;
     }
+}
+
+
+/* 团队样式 */
+
+.special-team-member {
+    width: 330px!important;
+    height: 330px!important;
+    margin-top: -40px!important;
+}
+
+.special-team-member .cloud-team-member-common {
+    width: 330px!important;
+    height: 330px!important;
+}
+
+.cloud-team {
+    width: 1200px;
+    height: 330px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 330px;
+}
+
+.cloud-team-circle {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.cloud-team-member {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 40px 5px;
+}
+
+.cloud-team-member-common {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: all 0.8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+}
+
+.cloud-team-member-spinner {
+    border: 10px solid #ecab18;
+    border-right: 10px solid #1ad280;
+    border-bottom: 10px solid #1ad280;
+}
+
+.cloud-team-member-avatar {
+    display: inline-block;
+    padding: 20px;
+}
+
+.cloud-team-member-description {
+    opacity: 0;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 65px 10px;
+    padding-bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.8s ease-in-out;
+    opacity: 0;
+}
+
+.cloud-team-member a:hover .cloud-team-member-spinner {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+.cloud-team-member a:hover .cloud-team-member-description {
+    opacity: 1;
 }
